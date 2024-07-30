@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view>
-			<image src="../../static/clam.gif" />
+			<image src="../../static/clam.gif" mode="aspectFill"/>
 		</view>
 	</view>
 </template>
@@ -23,6 +23,11 @@
 </script>
 
 <style>
+	.status_bar {
+		height: 60px;
+		width: 100%;
+	}
+
 	.content {
 		display: flex;
 		flex-direction: column;
